@@ -1,4 +1,4 @@
-variable "envwhitelist-map" {
+variable "envwhitelistmap" {
     type = map(string)
     default = {
         "ips" = "[ 10.48.49.170/32  213.115.111.36/32  213.27.137.74/32  41.184.210.202/32 ]"
